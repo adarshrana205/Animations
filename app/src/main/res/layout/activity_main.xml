@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.hanks.htextview.fall.FallTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+    <com.hanks.htextview.line.LineTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:id="@+id/textViewLine"
+        app:animationDuration="1000"
+        android:textSize="20sp"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp"
+        android:gravity="center"
+        />
+
+    <com.hanks.htextview.fade.FadeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:id="@+id/textViewFade"
+        app:animationDuration="1000"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+    <com.hanks.htextview.typer.TyperTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:id="@+id/textViewTyper"
+        app:charIncrease="3"
+        app:typerSpeed="80"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+    <com.hanks.htextview.rainbow.RainbowTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:id="@+id/textViewRainBow"
+        android:textSize="20sp"
+        app:colorSpace="150dp"
+        app:colorSpeed="4dp"
+        android:gravity="center"
+        />
+
+
+    <com.hanks.htextview.scale.ScaleTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:id="@+id/textViewScale"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
